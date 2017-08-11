@@ -22,6 +22,10 @@ For this first phase, we will focus ONLY in the browser. We will start by talkin
 
 No need to run any server - just open `public/index.html`. But if you want to edit it you need to `npm start` from the root directory and that will kick off webpack in watch mode.
 
+# check it live
+
+the prebuilt site is viewable here: <https://sw-yx.github.io/fsa-tripplanner-static/public/>
+
 
 # Notes from @swyx
 
