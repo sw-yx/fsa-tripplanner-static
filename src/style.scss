@@ -1,0 +1,92 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+// $your-color-here: yellow;
+$bgcol1: #5d5144;
+$bgtext1: #86a5cf;  
+$your-color-here: $bgtext1;
+
+//panels
+$panelbody: #b4b7ac;
+$panelhead: $bgcol1;
+$panelbg: #b1a79c;
+$paneltopbg: #bfb7ac;
+
+body {
+  margin: 0;
+  height: 100vh
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+	color: $your-color-here;
+  background-color: $bgcol1;
+}
+.round {
+  border-radius: 50%
+}
+.navbar {
+  margin-bottom: 0;
+}
+// .glyphicon {
+//   // float: left;
+// }
+
+#content {
+  height: 100%
+}
+
+.vfill {
+  min-height: 100%;
+  height: 100%
+}
+.nopad {
+  padding: 0
+}
+
+#map {
+  // height: 100%;
+  // content: '';
+  // width: 100%;
+}
+
+
+#optionsPanel {
+  // height: 100%;
+  // content: '';
+  // width: 99vh;
+  background-color: $panelbg;
+
+}
+
+
+// top panel specific stuff
+#panel-top{
+  background-color: $paneltopbg; 
+  // height:30%;
+  margin: 15px;
+  border-radius: 10px;
+}
+.input-group .btn {
+  // font-size: 1em
+  padding: 3px 10px
+}
+.input-group > select {
+  width: 20vw
+}
+
+
+// bot panel specific stuff
+#panel-bot{
+  background-color: $paneltopbg; 
+  // height:50%;
+  margin: 15px;
+  border-radius: 10px;
+}
+.panel-default > .panel-heading{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: $bgcol1; 
+}
+.input-group .btn {
+  // font-size: 1em
+  padding: 3px 10px
+}
